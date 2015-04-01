@@ -41,6 +41,7 @@ def main():
     while (True):
         ReadTempetur()
 	AddToDB()
-	sleep(10)
+	# Sleeps for a minut
+	sleep(60)
 
 main()
